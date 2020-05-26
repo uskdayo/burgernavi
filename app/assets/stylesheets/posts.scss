@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+header{
+  background-color: #ff6600;
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  padding: 10px;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+  height: 80px;
+  width: 500px;
+  padding: 15px;
+  text-shadow: 5px 5px red;
+  font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+}
+
+.search{
+  background-color: whitesmoke;
+  height: 50px;
+  width: 400px;
+  margin: 25px;
+  border: solid 1px;
+  display: flex;
+  margin-left: auto;
+}
+
+.search-box{
+  height: 50px;
+  width: 350px;
+  border: solid 1px;
+}
+
+.text{
+  height: 100%;
+  width: 100%;
+}
+
+.search-btn{
+  height: 50px;
+  width: 50px;
+  border: solid 1px;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  color: gray;
+}
+
+.menu-box{
+  height: 35px;
+  width: 200px;
+  display: flex;
+  line-height: 35px;
+  margin: 30px 30px;
+}
+
+input{
+  height: 46px;
+  width: 100%;
+}
+
+.sign-up{
+  background-color: red;
+  height: 35px;
+  width: 90px;
+  margin-right: 20px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  
+}
+
+.login{
+  background-color: greenyellow;
+  height: 35px;
+  width: 90px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.contents{
+  background-color: slateblue;
+  display: flex;
+  padding-top: 120px;
+}
+
+.side-content{
+  background-color: burlywood;
+  height: 100%;
+  width: 300px;
+}
+
+.area-map{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+
+.main-content{
+  background-color: greenyellow;
+  width: calc(100% - 300px);
+  overflow: scroll;
+}
+
+.shop-content{
+  background-color: yellow;
+  height: 450px;
+  padding: 30px;
+}
+
+.shop-header{
+  display: flex;
+  height: 70px;
+  line-height: 70px;
+}
+
+.shop-name{
+  font-size: 30px;
+  padding: 0 15px;
+}
+
+.shop-addres{
+  padding: 0 15px;
+}
+
+.shop-station{
+  padding: 0 15px;
+}
+
+.shop-service{
+  background-color: white;
+  height: 50px;
+  width: 250px;
+}
+
+.shop-main{
+  display: flex;
+}
+
+.shop-picture{
+  background-color: white;
+  height: 300px;
+  width: 250px;
+}
+
+.top-picture{
+  background-color: black;
+  height: 240px;
+  width: 240px;
+  margin: 5px;
+}
+
+.bottom-picture{
+  background-color: orang;
+  height: 50px;
+  width: 240px;
+  margin: 5px;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.picture-itm{
+  height: 40px;
+  width: 40px;
+  background-color: navy;
+  color: wheat;
+}
+
+.shop-contents{
+  background-color: white;
+  height: 300px;
+  width: 100%;
+  padding: 5px 20px 5px 20px;
+}
+
+.shop-review{
+  background-color: #ff6600;
+  height: 50px;
+  width: 100%;
+}
+
+.shop-holiday{
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.shop-tel{
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+}
+
+.comment{
+  background-color: cornflowerblue;
+  height: 135px;
+  width: 100%;
+}
+
+footer{
+  background-color: #ff6600;
+  height: 100px;
+  width: 100%;
+  
+}
