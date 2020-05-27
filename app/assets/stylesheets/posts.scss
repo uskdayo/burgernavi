@@ -3,7 +3,6 @@
 }
 
 body {
-  background-color: #f0f0f0;
   color: #333;
   margin: 0 auto;
 }
@@ -96,32 +95,36 @@ input{
 }
 
 .contents{
-  background-color: slateblue;
   display: flex;
   padding-top: 120px;
+  height: 100%;
+  width: 100%;
 }
 
 .side-content{
-  background-color: burlywood;
   height: 100%;
-  width: 300px;
+  width: 250px;
+  position: fixed;
 }
 
 .area-map{
-  background-color: white;
   text-align: center;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 ul{
   list-style: none;
 }
 
+.service-map{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
 
 .main-content{
-  background-color: greenyellow;
-  width: calc(100% - 300px);
+  padding-left: 250px;
   overflow: scroll;
 }
 
@@ -138,22 +141,33 @@ ul{
 }
 
 .shop-name{
-  font-size: 30px;
+  width: 300px;
+  font-size: auto;
   padding: 0 15px;
+  font-size: 20px;
 }
 
 .shop-addres{
   padding: 0 15px;
+  width: 70px;
+  font-size: 20px;
 }
 
 .shop-station{
   padding: 0 15px;
+  width: 70px;
+  font-size: 20px;
 }
 
 .shop-service{
-  background-color: white;
   height: 50px;
   width: 250px;
+  font-size: 23px;
+}
+
+.uber{
+  height: 20px;
+  width: 20px;
 }
 
 .shop-main{
@@ -191,17 +205,32 @@ ul{
   color: wheat;
 }
 
+
+
 .shop-contents{
   background-color: white;
   height: 300px;
   width: 100%;
   padding: 5px 20px 5px 20px;
+  font-size: 20px;
 }
 
 .shop-review{
-  background-color: #ff6600;
   height: 50px;
   width: 100%;
+  display: flex;
+}
+
+i{
+  padding-top: 13px;
+}
+
+.average-point{
+  padding: 10px;
+}
+
+.length{
+  padding: 10px;
 }
 
 .shop-holiday{
@@ -217,14 +246,26 @@ ul{
 }
 
 .comment{
-  background-color: cornflowerblue;
   height: 135px;
   width: 100%;
+  border: 1px solid;
+}
+
+.comment1{
+  height: 50%;
+}
+
+.comment2{
+  height: 50%;
+}
+
+.right-content{
+  width: 200px;
+  height: 100%;
 }
 
 footer{
   background-color: #ff6600;
   height: 100px;
   width: 100%;
-  
 }
