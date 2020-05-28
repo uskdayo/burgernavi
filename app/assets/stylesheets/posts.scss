@@ -29,6 +29,7 @@ h1{
   padding: 15px;
   text-shadow: 5px 5px red;
   font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+  cursor: pointer;
 }
 
 .search{
@@ -60,6 +61,7 @@ h1{
   line-height: 50px;
   text-align: center;
   color: gray;
+  cursor: pointer;
 }
 
 .menu-box{
@@ -83,7 +85,7 @@ input{
   text-align: center;
   color: white;
   font-size: 15px;
-  
+  cursor: pointer;
 }
 
 .login{
@@ -92,6 +94,7 @@ input{
   width: 90px;
   text-align: center;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .contents{
@@ -99,6 +102,10 @@ input{
   padding-top: 120px;
   height: 100%;
   width: 100%;
+  background-image:url("https://pbs.twimg.com/media/DzDWseBUcAAP1fI.jpg");
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+  background-size: 300px 300px;
 }
 
 .side-content{
@@ -115,6 +122,7 @@ input{
 
 ul{
   list-style: none;
+  cursor: pointer;
 }
 
 .service-map{
@@ -126,10 +134,10 @@ ul{
 .main-content{
   padding-left: 250px;
   overflow: scroll;
+  margin: 0 auto;
 }
 
 .shop-content{
-  background-color: yellow;
   height: 450px;
   padding: 30px;
 }
@@ -145,6 +153,7 @@ ul{
   font-size: auto;
   padding: 0 15px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .shop-addres{
